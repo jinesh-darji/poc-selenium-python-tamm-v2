@@ -1,0 +1,109 @@
+{
+  "Home Grant Page":{
+    "grand_home_banner": "Start a new Restaurant"
+  },
+
+  "Home Page":{
+    "home_banner": "Start a Restaurant"
+  },
+
+  "Discover Page": {
+    "discover_banner": "Discover"
+  },
+
+  "Discover Service List Page": {
+    "discover_service_title": "What are you planning to serve?"
+  },
+
+  "Discover Provide Meal Page":{
+    "discover_provider_meal_title": "Are you looking to provide meal contracts?"
+  },
+
+  "Discover Delivery Food Page":{
+    "discover_delivery_food_title": "Are you planning to deliver food?"
+  },
+
+  "Emirati Page":{
+    "emirati_title": "Are you an Emirati?"
+  },
+
+  "Discover Sole Or Partnership Page":{
+    "discover_sole_partnership_title": "How will the company be formed?"
+  },
+
+  "Discover Establishment Page":{
+    "discover_establishment_title": "You're eligible to establish the following:"
+  },
+
+  "Size Of Restaurant Page": {
+    "size_of_restaurant_title": "What is the size of the restaurant?"
+  },
+
+  "Employee Hire Page":{
+    "employee_hire_title": "How many employees are you looking to hire?"
+  },
+
+  "Commercial License Page":{
+    "commercial_license_title": "Commercial License"
+  },
+
+   "Login Page":{
+    "login_title": "Login"
+  },
+
+  "Remove PRO Form":{
+    "remove_pro_title": "Are you sure you would like to remove PRO?"
+  },
+
+  "Assigned PRO Link Page":{
+    "assigned_pro_link_title": "Assigned PRO"
+  },
+
+  "Assign PRO Form Page":{
+    "assign_pro_form_title": "Assign PRO"
+  },
+
+  "Authorize PRO Form":{
+    "authorize_pro_title": "Authorize PRO"
+  },
+
+  "Registration Steps Page":{
+    "registration_steps_title": "Register your commercial license"
+  },
+
+  "Commercial License Service List Page": {
+    "commercial_license_service_title": "What are you planning to serve?"
+  },
+
+  "Commercial License Provide Meal Page":{
+    "commercial_license_meal_title": "Are you looking to provide meal contracts?"
+  },
+
+  "Commercial License Delivery Food Page":{
+    "commercial_license_delivery_food_title": "Are you planning to deliver food?"
+  },
+
+  "Summary Of Activities Page":{
+    "summary_of_activities_title": "Summary of activities selected"
+  },
+
+  "Commercial License Sole Or Partnership Page":{
+    "commercial_license_sole_partnership_title": "How will the company be formed?"
+  },
+
+  "Commercial License Establishment Page":{
+    "commercial_license_establishment_title": "You're eligible to establish the following:"
+  },
+  "GCC Page": {
+    "gcc_title": "Are you a GCC national?"
+  },
+  "Ownership Details Page": {
+    "ownership_details_title": "What are the ownership details?"
+  },
+  "Add Partner Form": {
+    "add_partner": "Add Partner"
+  },
+   "Add Sponsor Form": {
+    "add_sponsor": "Add Sponsor"
+  }
+}

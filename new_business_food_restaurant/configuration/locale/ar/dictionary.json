@@ -1,0 +1,101 @@
+{
+  "Home Grant Page":{
+    "grand_home_banner": "تأسيس مطعم جديد"
+  },
+
+  "Home Page":{
+    "home_banner": "تأسيس مطعم"
+  },
+
+  "Discover Page": {
+    "discover_banner": "اكتشف"
+  },
+
+  "Discover Service List Page": {
+    "discover_service_title": "ما الذي ترغب في تقديمه؟"
+  },
+
+  "Discover Provide Meal Page":{
+    "discover_provider_meal_title": "هل تسعى إلى اعداد الوجبات الجاهزة ؟"
+  },
+
+  "Discover Delivery Food Page":{
+    "discover_delivery_food_title": "هل تسعى إلى اعداد الوجبات الجاهزة ؟"
+  },
+
+  "Emirati Page":{
+    "emirati_title": "هل تحمل الجنسية الإماراتية؟"
+  },
+
+  "Discover Sole Or Partnership Page":{
+    "discover_sole_partnership_title": "كيف سيتمّ تأسيس الشركة؟"
+  },
+
+  "Discover Establishment Page":{
+    "discover_establishment_title": "الشكل القانوني"
+  },
+
+  "Size Of Restaurant Page":{
+    "size_of_restaurant_title": "ما هي مساحة المطعم؟"
+  },
+
+  "Employee Hire Page":{
+    "employee_hire_title": "ما عدد الموظفين الذين تريد توظيفهم؟"
+  },
+
+  "Commercial License Page":{
+    "commercial_license_title": "الرخصة التجارية"
+  },
+
+  "Login Page":{
+    "login_title": "تسجيل الدخول"
+  },
+
+   "Remove PRO Form":{
+    "remove_pro_title": "هل أنت متأكد من رغبتك في إلغاء تعيين المندوب؟"
+  },
+
+  "Assign PRO Form Page":{
+    "assign_pro_form_title": "تعيين مندوب"
+  },
+
+  "Registration Steps Page":{
+    "registration_steps_title": "الرخصة التجارية تسجيل الرخصة التجارية"
+  },
+
+  "Commercial License Service List Page": {
+    "commercial_license_service_title": "ما الذي ترغب في تقديمه؟"
+  },
+
+  "Commercial License Provide Meal Page":{
+    "commercial_license_meal_title": "هل تسعى إلى اعداد الوجبات الجاهزة ؟"
+  },
+
+  "Commercial License Delivery Food Page":{
+    "commercial_license_delivery_food_title": "هل تسعى إلى اعداد الوجبات الجاهزة ؟"
+  },
+
+  "Summary Of Activities Page":{
+    "summary_of_activities_title": "ملخص الانشطة المختارة"
+  },
+
+  "Commercial License Sole Or Partnership Page":{
+    "commercial_license_sole_partnership_title": "كيف سيتمّ تأسيس الشركة؟"
+  },
+  "Commercial License Establishment Page":{
+    "commercial_license_establishment_title": "الشكل القانوني"
+  },
+  "GCC Page": {
+    "gcc_title": "هل أنت أحد مواطني دول مجلس التعاون الخليجي؟"
+  },
+  "Ownership Details Page": {
+    "ownership_details_title": "ما هي تفاصيل الملكية؟"
+  },
+  "Add Partner Form": {
+    "add_partner": "إضافة شريك"
+  },
+  "Add Sponsor Form": {
+    "add_sponsor": "إضافة كفيل"
+  }
+
+}

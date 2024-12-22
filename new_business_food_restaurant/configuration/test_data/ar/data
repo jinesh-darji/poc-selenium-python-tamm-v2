@@ -1,0 +1,91 @@
+{
+  "assign_pro": {
+    "name_english": "Muhammad",
+    "name_arabic": "محمد",
+    "emirati_id": "784-1989-5809071-8",
+    "email": "john.amith@test.net",
+    "phone_number": "+971554564567"
+  },
+  "login_smart_pass": {
+    "username": "persona.user1",
+    "password": "Persona.user1"
+  },
+  "employee_count": {
+    "employee": "110"
+  },
+  "add_partner": {
+    "txb_name_in_english": "Muhammad",
+    "txb_name_in_arabic": "محمد",
+    "dob_datepicker": "1992-12-12",
+    "txb_emirati_id": "784-1989-5809071-8",
+    "txb_email": "persona.adoss+2@gmail.com",
+    "txb_phone_number": "971589004645",
+    "txb_emirates": "Abu Dhabi",
+    "txb_city": "Abu Dhabi",
+    "txb_area": "Abu Dhabi",
+    "txb_street": "Al Raha",
+    "txb_building": "International Tower"
+  },
+  "add_manager": {
+    "txb_name_in_english": "Muhammad Abu",
+    "txb_name_in_arabic": "محمد",
+    "txb_emirati_id": "784-1993-9026841-7",
+    "txb_email": "persona.adoss+4@gmail.com",
+    "txb_phone_number": "971589004645",
+    "txt_passport_number": "1234567",
+    "txb_pobox": "123456",
+    "txb_emirates": "Abu Dhabi",
+    "txb_city": "Abu Dhabi",
+    "txb_area": "Abu Dhabi",
+    "txb_street": "Al Raha",
+    "txb_building": "International Tower",
+    "txb_flat": "Garden"
+  },
+  "add_sponsor": {
+    "txb_name_in_english": "Muhammad",
+    "txb_name_in_arabic": "محمد",
+    "dob_datepicker": "1992-10-12",
+    "txb_emirati_id": "784-1985-0524958-5",
+    "txb_email": "persona.adoss+3@gmail.com",
+    "txb_phone_number": "971589004741",
+    "txb_emirates": "Abu Dhabi",
+    "txb_city": "Abu Dhabi",
+    "txb_area": "Abu Dhabi",
+    "txb_street": "Al Raha",
+    "txb_building": "International Tower"
+  },
+  "enter_trade_name": {
+    "txb_trade_name_english": "Bob company",
+    "txb_trade_name_arabic": "شركة بوب",
+    "reservation_periods": "12 months"
+  },
+  "txb_reference_number": {
+    "reference_number": "1802000002"
+  },
+  "create_moa": {
+    "txb_total_capital": "10000",
+    "txb_annual_revenue": "20000",
+    "txb_total_number_of_shares": "100"
+  },
+  "cl_tawtheeq_number": {
+    "tawtheeq_number": "10086"
+  },
+  "provide_tawtheeq_number": {
+    "tawtheeq_number": "10086"
+  },
+  "employee_information": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "nationality": "ALBANIA",
+    "passport_number": "123456"
+  },
+  "employee_moi_number": {
+    "moi_number": "123456"
+  },
+  "restaurant_name": {
+    "name": "Lazy Restaurant"
+  },
+  "adfca_payment": {
+    "card_number": "4111111111111111"
+  }
+}

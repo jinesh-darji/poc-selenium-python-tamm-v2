@@ -1,0 +1,3100 @@
+{
+	"Login TAMM Page":{
+		"login_tamm_page_locator":{
+			"name": "Login TAMM Page",
+			"comment": "",
+			"locator": "//h1[contains(text(), 'Login')]",
+			"locale_path": "Login Page.login_title",
+			"search_cond": "xpath"
+		},
+		"btn_login_with_smartpass":{
+			"name": "Login with SmartPass Button",
+			"comment": "",
+			"locator": "//b[contains(text(), 'Login with SmartPass')]",
+			"search_cond": "xpath"
+		},
+		"btn_non_emirati_user_one": {
+			"name": "Non Emirati User One Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'Non Emirati, persona.user1')]",
+			"search_cond": "xpath"
+		},
+		"btn_emirati_user_two": {
+			"name": "Emirati User Two Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'Emirati, persona.user2')]",
+			"search_cond": "xpath"
+		},
+		"btn_emirati_user_three": {
+			"name": "Emirati User Three Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'Emirati, persona.user3')]",
+			"search_cond": "xpath"
+		},
+		"btn_non_emirati_user_four": {
+			"name": "Non Emirati User Four Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'Non Emirati, persona.user4')]",
+			"search_cond": "xpath"
+		},
+		"btn_non_emirati_user_five": {
+			"name": "Non Emirati User Five Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'Non-Emirati persona.user5')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Landing Guide Page": {
+		"landing_guide_locator": {
+			"name": "Landing Guide Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-hero-title')]",
+			"search_cond": "xpath"
+		},
+		"btn_start": {
+			"name": "Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'qa-process__button')]",
+			"search_cond": "xpath"
+		}
+	},
+	"TAMM Smart Pass Page": {
+		"tamm_smart_pass_page_locator": {
+			"name": "Login Smarpass Page",
+			"comment": "",
+			"locator": "//a[contains(@id, 'SmartPassTitle')]",
+			"search_cond": "xpath"
+		},
+		"txb_username": {
+			"name": "Username Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'frm-username')]",
+			"search_cond": "xpath"
+		},
+		"txb_password": {
+			"name": "Password Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'frm-password')]",
+			"search_cond": "xpath"
+		},
+		"btn_login": {
+			"name": "Login Button",
+			"comment": "",
+			"locator": "//input[contains(@class, 'btn')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Home Grant Page": {
+		"home_grant_page_locator": {
+			"name": "Home Grant Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-hero-title')]",
+			"locale_path": "Home Grant Page.grand_home_banner",
+			"search_cond": "xpath"
+		},
+		"btn_start_a_new_restaurant": {
+			"name": "Start A New Restaurant",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-item') and contains(text(), 'Start a New Restaurant')]",
+			"search_cond": "xpath"
+		},
+		"btn_manage_application": {
+			"name": "Manage Application",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-item') and contains(text(), 'Manage Applications')]",
+			"search_cond": "xpath"
+		},
+		"btn_market_reports": {
+			"name": "Market Report",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-item') and contains(text(), 'Market Reports')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu": {
+			"name": "Side Menu Button",
+			"comment": "",
+			"locator": "//div[contains(@title, 'side-menu')]",
+			"search_cond": "xpath"
+		},
+		"btn_header_logo": {
+			"name": "Header Logo Button",
+			"comment": "",
+			"locator": "//a[contains(@aria-label, 'header-logo')]",
+			"search_cond": "xpath"
+		},
+		"btn_login": {
+			"name": "Login Button",
+			"comment": "",
+			"locator": "//a[contains(@class, 'qa-smart-pass-button')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Manage Application Page": {
+		"manage_application_locator": {
+			"name": "Manage Application Locator",
+			"comment": "",
+			"locator": "//div[contains(text(), 'My Applications')]",
+			"search_cond": "xpath"
+		},
+		"lbl_active": {
+			"name": "Active Text",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Active')]",
+			"search_cond": "xpath"
+		},
+		"lbl_no_application": {
+			"name": "No Application Label",
+			"comment": "",
+			"locator": "//div[contains(@class, 'no-restaurant')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Market Report Page": {
+		"market_report_locator": {
+			"name": "Market Report Locator",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Market Reports')]",
+			"search_cond": "xpath"
+		},
+		"lbl_template_one": {
+			"name": "Template One",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Abu Dhabi Food Control Authority (ADFCA) Annual Report')]",
+			"search_cond": "xpath"
+		},
+		"lbl_template_two": {
+			"name": "Template Two",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Building Completion Statistics Q1 2018 Report')]",
+			"search_cond": "xpath"
+		},
+		"lbl_template_three": {
+			"name": "Template Three",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Building Completion Statistics Q2 2018 Report')]",
+			"search_cond": "xpath"
+		},
+		"lbl_template_four": {
+			"name": "Template Four",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Statistical Yearbook of Abu Dhabi 2017 Report')]",
+			"search_cond": "xpath"
+		},
+		"lbl_template_five": {
+			"name": "Template Five",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Statistical Yearbook of Abu Dhabi 2018 Report')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Home Page": {
+		"home_page_locator": {
+			"name": "Home Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-hero-title')]",
+			"locale_path": "Home Page.home_banner",
+			"search_cond": "xpath"
+		},
+		"btn_pro": {
+			"name": "PRO Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary flex-1')]",
+			"search_cond": "xpath"
+		},
+		"btn_discover_start": {
+			"name": "Discover Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_discover')]",
+			"search_cond": "xpath"
+		},
+		"btn_commercial_license_start": {
+			"name": "Commercial License Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_commercial_license')]",
+			"search_cond": "xpath"
+		},
+		"btn_financing_start": {
+			"name": "Financing Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_financing')]",
+			"search_cond": "xpath"
+		},
+		"btn_rent_start": {
+			"name": "Rent Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_rent')]",
+			"search_cond": "xpath"
+		},
+		"btn_design_and_adfca_inspection_start": {
+			"name": "Design And ADFCA Inspection Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_design_adfca_inspection')]",
+			"search_cond": "xpath"
+		},
+		"btn_recruit_and_certify_start": {
+			"name": "Recruit And Certify Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_recruit_certify')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu_discover": {
+			"name": "Discover Side Menu Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-expanded-stepper__title') and contains(text(), 'Discover')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu_commercial_license": {
+			"name": "Commercial License Side Menu Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-expanded-stepper__title') and contains(text(), 'Commercial Licence')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu_financing": {
+			"name": "Financing Side Menu Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-expanded-stepper__title') and contains(text(), 'Financing')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu_rent": {
+			"name": "Rent Side Menu Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-expanded-stepper__title') and contains(text(), 'Rent')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu_design_and_adfca_inspection": {
+			"name": "Design and ADFCA Inspection Side Menu Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-expanded-stepper__title') and contains(text(), 'Design & ADFCA Inspection')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu_recruit_and_certify": {
+			"name": "Recruit & Certify Side Menu Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-expanded-stepper__title') and contains(text(), 'Recruit & Certify')]",
+			"search_cond": "xpath"
+		},
+		"my_application_drop_down": {
+			"name": "My Application Drop Down",
+			"comment": "",
+			"locator": "//div[contains(@role,'combobox')]",
+			"search_cond": "xpath"
+		},
+		"my_application_arrow": {
+			"name": "My Application Arrow",
+			"comment": "",
+			"locator": "//div[contains(@role,'combobox')]",
+			"search_cond": "xpath"
+		},
+		"txb_my_application": {
+			"name": "My Application Field",
+			"comment": "",
+			"locator": "//input[contains(@class, 'ant-select-search__field')]",
+			"search_cond": "xpath"
+		},
+		"btn_financing_tab": {
+			"name": "Financing Tab",
+			"comment": "",
+			"locator": "//span[contains(@class, 'qa-vertical-step-header-text-title') and contains(text(), 'Financing')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Restaurant Name Page": {
+		"restaurant_name_page_locator": {
+			"name": "Restaurant Name Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'title mt-3') and contains(text(), '')]",
+			"search_cond": "xpath"
+		},
+		"txb_restaurant_name": {
+			"name": "Restaurant Name Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'restaurantName')]",
+			"search_cond": "xpath"
+		},
+		"btn_start": {
+			"name": "Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"PRO Form Page":{
+		"assign_pro_form_locator":{
+			"name": "PRO Form Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'pro_header')]",
+			"search_cond": "xpath"
+		},
+		"txb_name_english":{
+			"name": "Name English Field",
+			"comment": "",
+			"locator": "//input[contains(@title, 'Name in English')]",
+			"search_cond": "xpath"
+		},
+		"txb_name_arabic":{
+			"name": "Name Arabic Field",
+			"comment": "",
+			"locator": "//input[contains(@title, 'Name in Arabic')]",
+			"search_cond": "xpath"
+		},
+		"txb_emirati_id":{
+			"name": "Emirati Id Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'emiratesId')]",
+			"search_cond": "xpath"
+		},
+		"txb_email":{
+			"name": "Email Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'email')]",
+			"search_cond": "xpath"
+		},
+		"txb_phone_number":{
+			"name": "Phone Number Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'phone')]",
+			"search_cond": "xpath"
+		},
+		"btn_assign_pro":{
+			"name": "Assign PRO Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button qa-button uil-button_default-appearance uil-button_primary')]",
+			"search_cond": "xpath"
+		},
+		"btn_cancel_request": {
+			"name": "Cancel Request Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button qa-button uil-button_default-appearance uil-button_primary u')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Remove PRO Form":{
+		"remove_pro_locator":{
+			"name": "Remove PRO Form",
+			"comment": "",
+			"locator": "//div[contains(@class, 'ant-modal-title')]",
+			"locale_path": "Remove PRO Form.remove_pro_title",
+			"search_cond": "xpath"
+		},
+		"btn_cancel":{
+			"name": "Cancel Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'cancel')]",
+			"search_cond": "xpath"
+		},
+		"btn_confirm":{
+			"name": "Confirm Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'success')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Discover Page": {
+		"discover_locator": {
+			"name": "Discover Page",
+			"comment": "add_comment",
+			"locator": "//div[contains(@class, 'journey-title')]",
+			"locale_path": "Discover Page.discover_banner",
+			"search_cond": "xpath"
+		},
+		"btn_get_started": {
+			"name": "Get Started Button",
+			"locator": "//button[contains(@class, 'button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Discover Service List Page": {
+		"discover_service_list_locator": {
+			"name": "Discover Service List Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"locator_path": "Discover Service List Page.discover_service_title",
+			"search_cond": "xpath"
+		},
+		"btn_bakery": {
+			"name": "Bakery Button",
+			"comment": "",
+			"locator": "//span[contains(text(), 'Bakery')]",
+			"search_cond": "xpath"
+		},
+		"btn_fast_food": {
+			"name": "Fast Food Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Fast Food')]",
+			"search_cond": "xpath"
+		},
+		"btn_fresh_juices": {
+			"name": "Fresh Juices Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Fresh Juices')]",
+			"search_cond": "xpath"
+		},
+		"btn_grills": {
+			"name": "Grills Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Grills')]",
+			"search_cond": "xpath"
+		},
+		"btn_hot_cold_beverages": {
+			"name": "Hot & Cold Beverages Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Hot & Cold Beverages')]",
+			"search_cond": "xpath"
+		},
+		"btn_light_meal": {
+			"name": "Light Meal Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Light Meals')]",
+			"search_cond": "xpath"
+		},
+		"btn_pastries": {
+			"name": "Pastries Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Pastries')]",
+			"search_cond": "xpath"
+		},
+		"btn_salads_appetizers": {
+			"name": "Salads Appetizers Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Salads & Appetizers')]",
+			"search_cond": "xpath"
+		},
+		"btn_seafood": {
+			"name": "Seafood Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Seafood')]",
+			"search_cond": "xpath"
+		},
+		"btn_sweets": {
+			"name": "Sweets Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Sweets')]",
+			"search_cond": "xpath"
+		},
+		"btn_event_catering": {
+			"name": "Event Catering Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Event Catering')]",
+			"search_cond": "xpath"
+		},
+		"btn_bakery_checked": {
+			"name": "Bakery Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Bakery')]",
+			"search_cond": "xpath"
+		},
+		"btn_fast_food_checked": {
+			"name": "Fast Food Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Fast Food')]",
+			"search_cond": "xpath"
+		},
+		"btn_fresh_juices_checked": {
+			"name": "Fresh Juices Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Fresh Juices')]",
+			"search_cond": "xpath"
+		},
+		"btn_grills_checked": {
+			"name": "Grills Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Grills')]",
+			"search_cond": "xpath"
+		},
+		"btn_hot_cold_beverages_checked": {
+			"name": "Hot & Cold Beverages Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Hot & Cold Beverages')]",
+			"search_cond": "xpath"
+		},
+		"btn_light_meal_checked": {
+			"name": "Light Meal Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Light Meals')]",
+			"search_cond": "xpath"
+		},
+		"btn_pastries_checked": {
+			"name": "Pastries Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Pastries')]",
+			"search_cond": "xpath"
+		},
+		"btn_salads_appetizers_checked": {
+			"name": "Salads Appetizers Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Salads & Appetizers')]",
+			"search_cond": "xpath"
+		},
+		"btn_seafood_checked": {
+			"name": "Seafood Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Seafood')]",
+			"search_cond": "xpath"
+		},
+		"btn_sweets_checked": {
+			"name": "Sweets Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Sweets')]",
+			"search_cond": "xpath"
+		},
+		"btn_event_catering_checked": {
+			"name": "Event Catering Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Event Catering')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous": {
+			"name": "Previous Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-prev')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Discover Provide Meal Page": {
+		"discover_provide_meal_locator": {
+			"name": "Discover Provide Meal Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"local_path": "Discover Provide Meal Page.discover_provider_meal_title",
+			"search_cond": "xpath"
+		},
+		"btn_yes": {
+			"name": "Yes Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Yes')]",
+			"search_cond": "xpath"
+		},
+		"btn_no": {
+			"name": "No Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'No')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous": {
+			"name": "Previous Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-prev')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Discover Delivery Food Page": {
+		"discover_delivery_food_locator": {
+			"name": "Discover Delivery Food Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"local_path": "Discover Delivery Food Page.discover_delivery_food_title",
+			"search_cond": "xpath"
+		},
+		"btn_yes": {
+			"name": "Yes Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Yes')]",
+			"search_cond": "xpath"
+		},
+		"btn_no": {
+			"name": "No Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'No')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous": {
+			"name": "Previous Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-prev')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Map Page": {
+		"map_locator": {
+			"name": "Map Page",
+			"comment": "",
+			"locator": "//*[@id='app']/div/div/div/div/div/div/div[2]/div/div[1]/div[1]/div/svg",
+			"search_cond": "xpath"
+		},
+		"lbl_map": {
+			"name": "Map Instruction",
+			"comment": "",
+			"locator": "//div[contains(@class, 'mapInstructions')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Area Details Form": {
+		"area_detail_locator": {
+			"name": "Area Detail Form",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"search_cond": "xpath"
+		},
+		"btn_business_tab":{
+			"name": "Business Tab",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Business')]",
+			"search_cond": "xpath"
+		},
+		"btn_population_tab":{
+			"name": "Population Tab",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Population')]",
+			"search_cond": "xpath"
+		},
+		"btn_trends_tab":{
+			"name": "Trends Tab",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Trends')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Emirati Page": {
+		"emirati_locator": {
+			"name": "Emirati Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"locale_path": "Emirati Page.emirati_title",
+			"search_cond": "xpath"
+		},
+		"btn_yes": {
+			"name": "Yes Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Yes')]",
+			"search_cond": "xpath"
+		},
+		"btn_no": {
+			"name": "No Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'No')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous": {
+			"name": "Previous Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-prev')]",
+			"search_cond": "xpath"
+		}
+	},
+	"GCC Page": {
+		"gcc_locator": {
+			"name": "GCC Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"locale_path": "GCC Page.gcc_title",
+			"search_cond": "xpath"
+		},
+		"btn_yes": {
+			"name": "Yes Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Yes')]",
+			"search_cond": "xpath"
+		},
+		"btn_no": {
+			"name": "No Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'No')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous": {
+			"name": "Previous Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-prev')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Discover New or Branch Restaurant Page": {
+		"discover_new_or_branch_restaurant_locator": {
+			"name": "Discover New or Branch Restaurant Page",
+			"comment": "",
+			"locator": "//h2[contains(text(), 'Are you opening a new company or a branch?')]",
+			"search_cond": "xath"
+		},
+		"btn_new_company": {
+			"name": "New Company Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'New Company')]",
+			"search_cond": "xpath"
+		},
+		"btn_uae_branch": {
+			"name": "UAE Branch Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'UAE Branch')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous": {
+			"name": "Previous Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-prev')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Discover Sole Or Partnership Page": {
+		"discover_sole_or_partnership_locator": {
+			"name": "Discover Sole Or Partnership Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"locale_path": "Discover Sole Or Partnership Page.discover_sole_partnership_title",
+			"search_cond": "xpath"
+		},
+		"btn_sole": {
+			"name": "Sole Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Sole')]",
+			"search_cond": "xpath"
+		},
+		"btn_partnership": {
+			"name": "Partnership Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Partnership')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous": {
+			"name": "Previous Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-prev')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Discover Establishment Page": {
+		"discover_establishment_locator": {
+			"name": "Discover Establishment Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"locale_path": "Discover Establishment Page.discover_establishment_title",
+			"search_cond": "xpath"
+		},
+		"btn_llc": {
+			"name": "LLC Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'LLC')]",
+			"search_cond": "xpath"
+		},
+		"btn_establishment":{
+			"name": "Establishment Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Establishment')]",
+			"search_cond": "xpath"
+		},
+		"btn_sole_proprietorship_llc":{
+			"name": "Sole Proprietorship LLC Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Sole Proprietorship LLC')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous": {
+			"name": "Previous Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-prev')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Size Of Restaurant Page": {
+		"size_of_restaurant_locator": {
+			"name": "Size Of Restaurant Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"locale_path": "Size Of Restaurant Page",
+			"search_cond": "xpath"
+		},
+		"lbl_size_of_restaurant": {
+			"name": "Size Of Restaurant",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-range')]",
+			"search_cond": "xpath"
+		},
+		"btn_size_of_restaurant_slider": {
+			"name": "Size Slider Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'ant-slider-rail')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous": {
+			"name": "Previous Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-prev')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Employee Hire Page": {
+		"employee_hire_locator": {
+			"name": "Employee Hire Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"locale_path": "Employee Hire Page.employee_hire_title",
+			"search_cond": "xpath"
+		},
+		"lbl_number_of_employee": {
+			"name": "Number Of Employee",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-number-selector__value')]",
+			"search_cond": "xpath"
+		},
+		"txb_employee_count": {
+			"name": "Employee Count",
+			"comment": "",
+			"locator": "//input[contains(@id, 'employeesCountSelector')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous": {
+			"name": "Previous Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-prev')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Summary Cost Calculator Page": {
+		"summary_cost_calculator": {
+			"name": "Summary Cost Calculator Page",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'SUMMARY')]",
+			"search_cond": "xpath"
+		},
+		"estimated_cost": {
+			"name": "Estimated Cost Label",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-card-header-text-only__title') and contains(text(), 'Estimated Cost')]",
+			"search_cond": "xpath"
+		},
+		"btn_print": {
+			"name": "Print Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_secondary d-flex btn-medium')]",
+			"search_cond": "xpath"
+		},
+		"btn_get_commercial_license": {
+			"name": "Get Commercial License",
+			"comment": "",
+			"locator": "//button[contains(@class, 'button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Commercial License Page":{
+		"commercial_license_locator":{
+			"name": "Commercial License Page",
+			"comment": "",
+			"locator": "//h1[contains(@class, '')]",
+			"locale_path": "Registration Steps Page.registration_steps_title",
+			"search_cond": "xpath"
+		},
+		"lnk_home": {
+			"name": "Home Link",
+			"comment": "",
+			"locator": "//p[contains(text(), 'Home')]",
+			"search_cond": "xpath"
+		},
+		"btn_start_activities":{
+			"name": "Activities Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_activities')]",
+			"search_cond": "xpath"
+		},
+		"btn_start_legal_form": {
+			"name": "Legal Form Start Button",
+			"Comment": "",
+			"locator": "//button[contains(@class, 'btnId_legalForm')]",
+			"search_cond": "xpath"
+		},
+		"btn_start_trade_name": {
+			"name": "Trade Name Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_tradename')]",
+			"search_cond": "xpath"
+		},
+		"btn_start_document": {
+			"name": "Document Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_document')]",
+			"search_cond": "xpath"
+		},
+		"btn_start_payment_and_issuance": {
+			"name": "Payment and Issuance Start Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu_commercial_activities": {
+			"name": "Commercial Activities Side Menu Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-expanded-stepper__title') and contains(text(), 'Commercial Activities')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu_legal_form": {
+			"name": "Legal Form Side Menu Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-expanded-stepper__title') and contains(text(), 'Legal Form')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu_trade_name": {
+			"name": "Trade Name Side Menu Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-expanded-stepper__title') and contains(text(), 'Trade Name')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu_documents": {
+			"name": "Documents Side Menu Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-expanded-stepper__title') and contains(text(), 'Documents')]",
+			"search_cond": "xpath"
+		},
+		"btn_side_menu_payment_and_issuance": {
+			"name": "Payment & Issuance Side Menu Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-expanded-stepper__title') and contains(text(), 'Payment & Issuance')]",
+			"search_cond": "xpath"
+		},
+		"btn_commercial_activity_tab": {
+			"name": "Commercial Activity Tab",
+			"comment": "",
+			"locator": "//span[contains(@class, 'qa-vertical-step-header-text-title') and contains(text(), 'Commercial Activities')]",
+			"search_cond": "xpath"
+		},
+		"btn_legal_form_tab": {
+			"name": "Legal Form Tab",
+			"comment": "",
+			"locator": "//span[contains(@class, 'qa-vertical-step-header-text-title') and contains(text(), 'Legal Form')]",
+			"search_cond": "xpath"
+		},
+		"btn_trade_name_tab": {
+			"name": "Trade Name Tab",
+			"comment": "",
+			"locator": "//span[contains(@class, 'qa-vertical-step-header-text-title') and contains(text(), 'Trade Name')]",
+			"search_cond": "xpath"
+		},
+		"btn_documents_tab": {
+			"name": "Documents Tab",
+			"comment": "",
+			"locator": "//span[contains(@class, 'qa-vertical-step-header-text-title') and contains(text(), 'Documents')]",
+			"search_cond": "xpath"
+		},
+		"btn_payment_issuance_tab": {
+			"name": "Payment & Issuance Tab",
+			"comment": "",
+			"locator": "//span[contains(@class, 'qa-vertical-step-header-text-title') and contains(text(), 'Payment & Issuance')]",
+			"search_cond": "xpath"
+		},
+		"btn_view_details_trade_name": {
+			"name": "Trade Name View Detail Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_tradeName')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Commercial License Service List Page": {
+		"commercial_license_service_list_locator": {
+			"name": "Commercial License Service List Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"locator_path": "Commercial License Service List Page.commercial_license_service_title",
+			"search_cond": "xpath"
+		},
+		"btn_bakery": {
+			"name": "Bakery Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'selectList')]/div//span[contains(text(), 'Bakery')]",
+			"search_cond": "xpath"
+		},
+		"btn_fast_food": {
+			"name": "Fast Food Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Fast Food')]",
+			"search_cond": "xpath"
+		},
+		"btn_fresh_juices": {
+			"name": "Fresh Juices Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Fresh Juices')]",
+			"search_cond": "xpath"
+		},
+		"btn_grills": {
+			"name": "Grills Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Grills')]",
+			"search_cond": "xpath"
+		},
+		"btn_hot_cold_beverages": {
+			"name": "Hot & Cold Beverages Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Hot & Cold Beverages')]",
+			"search_cond": "xpath"
+		},
+		"btn_light_meal": {
+			"name": "Light Meal Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Light Meals')]",
+			"search_cond": "xpath"
+		},
+		"btn_pastries": {
+			"name": "Pastries Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Pastries')]",
+			"search_cond": "xpath"
+		},
+		"btn_salads_appetizers": {
+			"name": "Salads Appetizers Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Salads & Appetizers')]",
+			"search_cond": "xpath"
+		},
+		"btn_seafood": {
+			"name": "Seafood Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Seafood')]",
+			"search_cond": "xpath"
+		},
+		"btn_sweets": {
+			"name": "Sweets Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Sweets')]",
+			"search_cond": "xpath"
+		},
+		"btn_event_catering": {
+			"name": "Event Catering Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Event Catering')]",
+			"search_cond": "xpath"
+		},
+		"btn_bakery_checked": {
+			"name": "Bakery Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'selectList')]/div//span[contains(text(), 'Bakery')]",
+			"search_cond": "xpath"
+		},
+		"btn_fast_food_checked": {
+			"name": "Fast Food Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Fast Food')]",
+			"search_cond": "xpath"
+		},
+		"btn_fresh_juices_checked": {
+			"name": "Fresh Juices Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Fresh Juices')]",
+			"search_cond": "xpath"
+		},
+		"btn_grills_checked": {
+			"name": "Grills Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Grills')]",
+			"search_cond": "xpath"
+		},
+		"btn_hot_cold_beverages_checked": {
+			"name": "Hot & Cold Beverages Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Hot & Cold Beverages')]",
+			"search_cond": "xpath"
+		},
+		"btn_light_meal_checked": {
+			"name": "Light Meal Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Light Meals')]",
+			"search_cond": "xpath"
+		},
+		"btn_pastries_checked": {
+			"name": "Pastries Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Pastries')]",
+			"search_cond": "xpath"
+		},
+		"btn_salads_appetizers_checked": {
+			"name": "Salads Appetizers Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Salads & Appetizers')]",
+			"search_cond": "xpath"
+		},
+		"btn_seafood_checked": {
+			"name": "Seafood Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Seafood')]",
+			"search_cond": "xpath"
+		},
+		"btn_sweets_checked": {
+			"name": "Sweets Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Sweets')]",
+			"search_cond": "xpath"
+		},
+		"btn_event_catering_checked": {
+			"name": "Event Catering Button",
+			"comment": "",
+			"locator": "//label[contains(@class, 'ant-checkbox-wrapper-checked')]//span[contains(@class, 'uil-checkbox__label') and contains(text(), 'Event Catering')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Commercial License Provide Meal Page": {
+		"commercial_license_provide_meal_locator": {
+			"name": "Commercial License Provide Meal Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"local_path": "Commercial License Provide Meal Page.commercial_license_provider_meal_title",
+			"search_cond": "xpath"
+		},
+		"btn_yes": {
+			"name": "Yes Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Yes')]",
+			"search_cond": "xpath"
+		},
+		"btn_no": {
+			"name": "No Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'No')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Commercial License Delivery Food Page": {
+		"commercial_license_delivery_food_locator": {
+			"name": "Commercial License Delivery Food Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"local_path": "Commercial License Delivery Food Page.commercial_license_delivery_food_title",
+			"search_cond": "xpath"
+		},
+		"btn_yes": {
+			"name": "Yes Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Yes')]",
+			"search_cond": "xpath"
+		},
+		"btn_no": {
+			"name": "No Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'No')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Summary Of Activities Page":{
+		"summary_of_activities_locator":{
+			"name": "Summary Of Activities Page",
+			"comment": "",
+			"locator": "//h5[contains(@class, 'summary-card-title')]",
+			"locale_path": "Summary Of Activities Page.summary_of_activities_title",
+			"search_cond": "xpath"
+		},
+		"btn_legal_form":{
+			"name": "Legal Form Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		},
+		"lnk_reselect_the_activities":{
+			"name": "Reselect The Activities Link",
+			"comment": "",
+			"locator": "//span[contains(text(), 'Reselect the activities')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Commercial License Sole Or Partnership Page": {
+		"commercial_license_sole_or_partnership_locator": {
+			"name": "Commercial License Sole Or Partnership Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"locale_path": "Commercial License Sole Or Partnership Page.commercial_license_sole_partnership_title",
+			"search_cond": "xpath"
+		},
+		"btn_sole": {
+			"name": "Sole Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Sole')]",
+			"search_cond": "xpath"
+		},
+		"btn_partnership": {
+			"name": "Partnership Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Partnership')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Commercial License New or Branch Restaurant Page": {
+		"commercial_license_new_or_branch_restaurant_locator": {
+			"name": "Commercial License New or Branch Restaurant Page",
+			"comment": "",
+			"locator": "//h2[contains(text(), 'Are you opening a new company or a branch?')]",
+			"search_cond": "xath"
+		},
+		"btn_new_company": {
+			"name": "New Company Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'New Company')]",
+			"search_cond": "xpath"
+		},
+		"btn_uae_branch": {
+			"name": "UAE Branch Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'UAE Branch')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous": {
+			"name": "Previous Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-prev')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Commercial License Establishment Page": {
+		"commercial_license_establishment_locator": {
+			"name": "Commercial License Establishment Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"locale_path": "Commercial License Establishment Page.commercial_license_establishment_title",
+			"search_cond": "xpath"
+		},
+		"btn_llc": {
+			"name": "LLC Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'LLC')]",
+			"search_cond": "xpath"
+		},
+		"btn_establishment": {
+			"name": "Establishment Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Establishment')]",
+			"search_cond": "xpath"
+		},
+		"btn_sole_proprietorship_llc": {
+			"name": "Sole Proprietorship LLC Button",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-radio__label') and contains(text(), 'Sole Proprietorship LLC')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Ownership Details Page": {
+		"ownership_details_locator": {
+			"name": "Ownership Details Page",
+			"comment": "",
+			"locator": "//h2[contains(text(), 'What are the ownership details?')]",
+			"locale_path": "Ownership Details Page.ownership_details_title",
+			"search_cond": "xpath"
+		},
+		"btn_add_sponsor": {
+			"name": "Add Sponsor",
+			"comment": "",
+			"locator": "//div[contains(@class, 'owner-add-card')]",
+			"search_cond": "xpath"
+		},
+		"btn_add_partner": {
+			"name": "Add Partner",
+			"comment": "",
+			"locator": "//div[contains(@class, 'partners-add-card')]",
+			"search_cond": "xpath"
+		},
+		"sld_partner": {
+			"name": "Partner Slider",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-slider')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btn-next')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Add Partner Form": {
+		"add_partner_locator": {
+			"name": "Add Partner Form",
+			"comment": "",
+			"locator": "//div[contains(@id, 'rcDialogTitle0')]",
+			"locale_path": "Add Partner Form.add_partner",
+			"search_cond": "xpath"
+		},
+		"txb_name_in_english": {
+			"name": "Name in English Field",
+			"comment": "",
+			"locator": "//input[contains(@title, 'Name in English')]",
+			"search_cond": "xpath"
+		},
+		"txb_name_in_arabic": {
+			"name": "Name in Arabic Field",
+			"comment": "",
+			"locator": "//input[contains(@title, 'Name in Arabic')]",
+			"search_cond": "xpath"
+		},
+		"dob_datepicker": {
+			"name": "DOB Datepicker Field",
+			"comment": "",
+			"locator": "//input[contains(@class, 'ant-calendar-picker-input')]",
+			"search_cond": "xpath"
+		},
+		"btn_today": {
+			"name": "Today Button",
+			"comment": "",
+			"locator": "//a[contains(@class, 'ant-calendar-today-btn') and contains(text(), 'Today')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous_month": {
+			"name": "Previous Month Button",
+			"comment": "",
+			"locator": "//a[contains(@title, 'Previous month (PageUp)')]",
+			"search_cond": "xpath"
+		},
+		"btn_day": {
+			"name": "Day Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'ant-calendar-date') and contains(text(), '15')]",
+			"search_cond": "xpath"
+		},
+		"btn_calendar_icon": {
+			"name": "Calendar Icon",
+			"comment": "",
+			"locator": "//i[contains(@class, 'ant-calendar-picker-icon')]",
+			"search_cond": "xpath"
+		},
+		"txb_emirati_id": {
+			"name": "Emirati ID Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'emiratesId')]",
+			"search_cond": "xpath"
+		},
+		"txb_email": {
+			"name": "Email Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'email')]",
+			"search_cond": "xpath"
+		},
+		"txb_phone_number": {
+			"name": "Phone Number Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'phoneNumber')]",
+			"search_cond": "xpath"
+		},
+		"txb_emirates": {
+			"name": "Emirates Field",
+			"comment": "",
+			"locator": "//input[contains(@label, 'Emirates *')]",
+			"search_cond": "xpath"
+		},
+		"txb_city": {
+			"name": "City Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'city')]",
+			"search_cond": "xpath"
+		},
+		"txb_area": {
+			"name": "Area Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'area')]",
+			"search_cond": "xpath"
+		},
+		"txb_street": {
+			"name": "Street Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'street')]",
+			"search_cond": "xpath"
+		},
+		"txb_building": {
+			"name": "Building Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'building')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit": {
+			"name": "Submit Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Add Sponsor Form": {
+		"add_sponsor_locator": {
+			"name": "Add Sponsor Form",
+			"comment": "",
+			"locator": "//div[contains(@id, 'rcDialogTitle0')]",
+			"search_cond": "xpath"
+		},
+		"txb_name_in_english": {
+			"name": "Name in English Field",
+			"comment": "",
+			"locator": "//input[contains(@title, 'Name in English')]",
+			"search_cond": "xpath"
+		},
+		"txb_name_in_arabic": {
+			"name": "Name in Arabic Field",
+			"comment": "",
+			"locator": "//input[contains(@title, 'Name in Arabic')]",
+			"search_cond": "xpath"
+		},
+		"dob_datepicker": {
+			"name": "DOB Datepicker Field",
+			"comment": "",
+			"locator": "//input[contains(@class, 'ant-calendar-picker-input')]",
+			"search_cond": "xpath"
+		},
+		"btn_today": {
+			"name": "Today Button",
+			"comment": "",
+			"locator": "//a[contains(@class, 'ant-calendar-today-btn') and contains(text(), 'Today')]",
+			"search_cond": "xpath"
+		},
+		"btn_previous_month": {
+			"name": "Previous Month Button",
+			"comment": "",
+			"locator": "//a[contains(@title, 'Previous month (PageUp)')]",
+			"search_cond": "xpath"
+		},
+		"btn_day": {
+			"name": "Day Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'ant-calendar-date') and contains(text(), '15')]",
+			"search_cond": "xpath"
+		},
+		"btn_calendar_icon": {
+			"name": "Calendar Icon",
+			"comment": "",
+			"locator": "//i[contains(@class, 'ant-calendar-picker-icon')]",
+			"search_cond": "xpath"
+		},
+		"txb_emirati_id": {
+			"name": "Emirati ID Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'emiratesId')]",
+			"search_cond": "xpath"
+		},
+		"txb_email": {
+			"name": "Email Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'email')]",
+			"search_cond": "xpath"
+		},
+		"txb_phone_number": {
+			"name": "Phone Number Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'phoneNumber')]",
+			"search_cond": "xpath"
+		},
+		"txb_emirates": {
+			"name": "Emirates Field",
+			"comment": "",
+			"locator": "//input[contains(@label, 'Emirates *')]",
+			"search_cond": "xpath"
+		},
+		"txb_city": {
+			"name": "City Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'city')]",
+			"search_cond": "xpath"
+		},
+		"txb_area": {
+			"name": "Area Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'area')]",
+			"search_cond": "xpath"
+		},
+		"txb_street": {
+			"name": "Street Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'street')]",
+			"search_cond": "xpath"
+		},
+		"txb_building": {
+			"name": "Building Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'building')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit": {
+			"name": "Submit Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Summary of Legal Form Page": {
+		"summary_of_legal_form_locator": {
+			"name": "Summary of Legal Form Page",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Legal Form')]",
+			"search_cond": "xpath"
+		},
+		"btn_select_trade_name": {
+			"name": "Select Trade Name Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		},
+		"lnk_reselect_legal_form": {
+			"name": "Reselect Legal Form",
+			"comment": "",
+			"locator": "//span[contains(text(), 'Reselect the legal form')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Trade Name Page": {
+		"trade_name_locator": {
+			"name": "Trade Name Page",
+			"comment": "",
+			"locator": "//h1[contains(text(), '')]",
+			"search_cond": "xpath"
+		},
+		"btn_trade_name_start": {
+			"name": "Trade Name Start",
+			"comment": "",
+			"locator": "//button[contains(@class, 'btnId_select_tradename')]",
+			"search_cond": "xpath"
+		},
+		"btn_payment_start": {
+			"name": "Payment Start Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'PAYMENT COMPLETE')]",
+			"search_cond": "xpath"
+		},
+		"btn_initial_approval_start": {
+			"name": "Initial Approval Issued Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_default-appearance uil-button_primary')]",
+			"search_cond": "xpath"
+		},
+		"btn_select_trade_name_open": {
+			"name": "Select Trade Name Tab Open Button",
+			"comment": "",
+			"locator": "//span[contains(text(), 'Select your Trade Name')]",
+			"search_cond": "xpath"
+		},
+		"btn_ded_approval_open": {
+			"name": "DED Approval Tab Open Button",
+			"comment": "",
+			"locator": "//span[contains(text(), 'DED approval')]",
+			"search_cond": "xpath"
+		},
+		"btn_payment_open": {
+			"name": "Payment Tab Open Button",
+			"comment": "",
+			"locator": "//span[contains(text(), 'Payment')]",
+			"search_cond": "xpath"
+		},
+		"btn_initial_approval_open": {
+			"name": "Initial Approval Tab Open Button",
+			"comment": "",
+			"locator": "//span[contains(text(), 'Initial approval')]",
+			"search_cond": "xpath"
+		},
+		"btn_issued_commercial_license": {
+			"name": "",
+			"comment": "",
+			"locator": "//DIV[contains(@class, 'uil-button__content') and contains(text(), 'ISSUED')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Enter Trade Name Page": {
+		"enter_trade_name_locator": {
+			"name": "Enter Trade Name Page",
+			"comment": "",
+			"locator": "//h2[contains(@class, '')]",
+			"search_cond": "xpath"
+		},
+		"txb_trade_name_english": {
+			"name": "Trade Name English",
+			"comment": "",
+			"locator": "//input[contains(@id, 'restaurantNameInEnglish')]",
+			"search_cond": "xpath"
+		},
+		"txb_trade_name_arabic": {
+			"name": "Trade Name Arabic",
+			"comment": "",
+			"locator": "//input[contains(@id, 'restaurantNameInArabic')]",
+			"search_cond": "xpath"
+		},
+		"drpdwn_reservation_period": {
+			"name": "Select Reservation Period",
+			"comment": "",
+			"locator": "//div[contains(@id, 'tradeNameReservationPeriod')]//div[contains(@class, 'selected-value')]",
+			"search_cond": "xpath"
+		},
+		"arrow_reservation_period": {
+			"name": "Reservation Arrow",
+			"comment": "",
+			"locator": "//div[contains(@id, 'tradeNameReservationPeriod')]//span[contains(@class, 'ant-select-arrow')]",
+			"search_cond": "xpath"
+		},
+		"txb_reservation_period": {
+			"name": "Reservation Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'tradeNameReservationPeriod')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit_for_approval": {
+			"name": "Submit For Approval Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Trade Name Approval Page": {
+		"trade_name_approval_locator": {
+			"name": "Trade Name Approval Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'SuccessBox-title__container')]",
+			"search_cond": "xpath"
+		},
+		"lnk_commercial_license": {
+			"name": "Commercial License Link",
+			"comment": "",
+			"locator": "//p[contains(text(), 'Commercial License')]",
+			"search_cond": "xpath"
+		},
+		"btn_next": {
+			"name": "Next Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Trade Name Success Page": {
+		"trade_name_success_locator": {
+			"name": "Trade Name Success Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'SuccessBox-description__container')]",
+			"search_cond": "xpath"
+		},
+		"btn_download": {
+			"name": "Download Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_default-appearance uil-button_primary mt-1')]",
+			"search_cond": "xpath"
+		},
+		"btn_documents": {
+			"name": "Documents Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_default-appearance uil-button_primary uil')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Trade Name Payment Success Page": {
+		"trade_name_payment_success_locator": {
+			"name": "Trade Name Payment Success Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'SuccessBox-description__container') and contains(text(), 'Thank you, your payment has been received and your trade name will be reviewed which will take up to 24 - 48 hours.')]",
+			"search_cond": "xpath"
+		},
+		"lbl_tnnumber": {
+			"name": "Success Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Summary (TN-')]",
+			"search_cond": "xpath"
+		},
+		"lnk_commercial_license": {
+			"name": "Commercial License Link",
+			"comment": "",
+			"locator": "//a[contains(@class, 'qa-breadcrumb-link') and contains(text(), 'Commercial License')]",
+			"search_cond": "xpath"
+		}
+	},
+	"MOA Page": {
+		"moa_locator": {
+			"name": "MOA Page",
+			"comment": "",
+			"locator": "//h1[contains(@class, '')]",
+			"search_cond": "xpath"
+		},
+		"btn_emoa": {
+			"name": "E-MoA Button",
+			"comment": "",
+			"locator": "//div[contains(@class,'qa-item-card-title') and contains(text(), 'E-MoA')]",
+			"search_cond": "xpath"
+		},
+		"btn_upload": {
+			"name": "Upload Button",
+			"comment": "",
+			"locator": "//div[contains(@class,'qa-item-card-title') and contains(text(), 'Upload')]",
+			"search_cond": "xpath"
+		},
+		"btn_reference_number": {
+			"name": "Reference Number Button",
+			"comment": "",
+			"locator": "//div[contains(@class,'qa-item-card-title') and contains(text(), 'Enter reference number')]",
+			"search_cond": "xpath"
+		}
+	},
+	"MOA Reference Number Page": {
+		"moa_reference_number_locator": {
+			"name": "MOA Reference Number Page",
+			"comment": "",
+			"locator": "//h1[contains(@class,'')]",
+			"search_cond": "xpath"
+		},
+		"txb_reference_number": {
+			"name": "Reference Number Field",
+			"comment": "",
+			"locator": "//input[contains(@id,'referenceNo')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit": {
+			"name": "Submit Button",
+			"comment": "",
+			"locator": "//button[contains(@class,'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"MOA Upload Page": {
+		"moa_upload_locator": {
+			"name": "MOA Upload Page",
+			"comment": "",
+			"locator": "//h1[contains(@class,'')]",
+			"search_cond": "xpath"
+		},
+		"btn_upload_moa": {
+			"name": "MOA Upload",
+			"comment": "",
+			"locator": "//input[contains(@id,'uploadMoa')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit": {
+			"name": "Submit Button",
+			"comment": "",
+			"locator": "//button[contains(@class,'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Create MOA Page": {
+		"create_moa_locator": {
+			"name": "Create MoA Page",
+			"comment": "",
+			"locator": "//h1[contains(@class,'')]",
+			"search_cond": "xpath"
+		},
+		"txb_total_capital": {
+			"name": "Total Capital Field",
+			"comment": "",
+			"locator": "//input[contains(@id,'totalCapital')]",
+			"search_cond": "xpath"
+		},
+		"txb_annual_revenue": {
+			"name": "Annual Revenue Field",
+			"comment": "",
+			"locator": "//input[contains(@id,'annualRevenue')]",
+			"search_cond": "xpath"
+		},
+		"txb_total_number_of_shares": {
+			"name": "Total Number of Shares Field",
+			"comment": "",
+			"locator": "//input[contains(@id,'totalShares')]",
+			"search_cond": "xpath"
+		},
+		"btn_add_manager": {
+			"name": "Add Manager Button",
+			"comment": "",
+			"locator": "//button[contains(@class,'uil-button_secondary d-flex')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit": {
+			"name": "Submit Button",
+			"comment": "",
+			"locator": "//button[contains(@class,'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Add Manager Form": {
+		"add_manager_locator": {
+			"name": "Add Manager",
+			"comment": "",
+			"locator": "//div[contains(@id, 'rcDialogTitle2')]",
+			"search_cond": "xpath"
+		},
+		"drpdwn_title": {
+			"name": "Title Drop Down",
+			"comment": "",
+			"locator": "//div[contains(@id, 'title')]//div[contains(@class, 'ant-select-selection__rendered')]",
+			"search_cond": "xpath"
+		},
+		"drpdwn_arrow_title": {
+			"name": "Title Drop Down Arrow",
+			"comment": "",
+			"locator": "//div[contains(@id, 'title')]//i",
+			"search_cond": "xpath"
+		},
+		"txb_title": {
+			"name": "Title Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'title')]",
+			"search_cond": "xpath"
+		},
+		"txb_name_in_english": {
+			"name": "Name in English Field",
+			"comment": "",
+			"locator": "//input[contains(@title, 'Name in English')]",
+			"search_cond": "xpath"
+		},
+		"txb_name_in_arabic": {
+			"name": "Name in Arabic Field",
+			"comment": "",
+			"locator": "//input[contains(@title, 'Name in Arabic')]",
+			"search_cond": "xpath"
+		},
+		"txb_emirati_id": {
+			"name": "Emirati ID Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'emiratesId')]",
+			"search_cond": "xpath"
+		},
+		"txb_email": {
+			"name": "Email Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'email')]",
+			"search_cond": "xpath"
+		},
+		"txb_phone_number": {
+			"name": "Phone Number Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'phone')]",
+			"search_cond": "xpath"
+		},
+		"txb_passport_number": {
+			"name": "Passport Number Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'passportNumber')]",
+			"search_cond": "xpath"
+		},
+		"txb_pobox": {
+			"name": "POBox Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'POBox')]",
+			"search_cond": "xpath"
+		},
+		"drpdwn_year_manager": {
+			"name": "Number of Years Manager Drop Down",
+			"comment": "",
+			"locator": "//div[contains(@id, 'ceoYears')]//div[contains(@class, 'ant-select-selection__rendered')]",
+			"search_cond": "xpath"
+		},
+		"arrow_year_number": {
+			"name": "Year Number Arrow",
+			"comment": "",
+			"locator": "//div[contains(@id, 'ceoYears')]//i",
+			"search_cond": "xpath"
+		},
+		"txb_year_number": {
+			"name": "Yeah Number Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'ceoYears')]",
+			"search_cond": "xpath"
+		},
+		"txb_emirates": {
+			"name": "Emirates Field",
+			"comment": "",
+			"locator": "//input[contains(@label, 'Emirates *')]",
+			"search_cond": "xpath"
+		},
+		"txb_city": {
+			"name": "City Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'city')]",
+			"search_cond": "xpath"
+		},
+		"txb_area": {
+			"name": "Area Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'area')]",
+			"search_cond": "xpath"
+		},
+		"txb_street": {
+			"name": "Street Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'street')]",
+			"search_cond": "xpath"
+		},
+		"txb_building": {
+			"name": "Building Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'building')]",
+			"search_cond": "xpath"
+		},
+		"txb_flat": {
+			"name": "Flat Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'flatVillaNo')]",
+			"search_cond": "xpath"
+		},
+		"btn_add_manager": {
+			"name": "Submit Button",
+			"comment": "",
+			"locator": "//div[contains(@id, 'addmanager')]",
+			"search_cond": "xpath"
+		}
+	},
+	"MOA Authorization Page": {
+		"moa_authorization_locator": {
+			"name": "MOA Authorization Page",
+			"comment": "",
+			"locator": "//h5[contains(@class, 'text-primary') and contains(text(), 'Authorization')]",
+			"search_cond": "xpath"
+		},
+		"btn_download_moa": {
+			"name": "Download MoA Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'DOWNLOAD MoA')]",
+			"search_cond": "xpath"
+		},
+		"btn_create_new_moa": {
+			"name": "Create New MoA Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'CREATE NEW MOA')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit": {
+			"name": "Submit Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'Submit')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Service Agent Agreement Page": {
+		"service_agent_agreement_locator": {
+			"name": "Service Agent Agreement Page",
+			"comment": "",
+			"locator": "//h1",
+			"search_cond": "xpath"
+		},
+		"btn_upload_file": {
+			"name": "Upload File",
+			"comment": "",
+			"locator": "//input[contains(@id,'serviceAgentFile')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit": {
+			"name": "Submit button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]/div/div[contains(text(), 'Submit')]",
+			"search_cond": "xpath"
+		},
+		"btn_more_info": {
+			"name": "More Info Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'MORE INFO')]",
+			"search_cond": "xpath"
+		}
+	},
+	"How To Obtain A SAA Page": {
+		"obtain_saa_locator": {
+			"name": "How To Obtain A SAA Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'location') and contains(text(), 'Location')]",
+			"search_cond": "xpath"
+		},
+		"lbl_website": {
+			"name": "Website Text",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-card') and contains(text(), 'https://www.adjd.gov.ae')]",
+			"search_cond": "xpath"
+		}
+	},
+	"No Document Required Page": {
+		"no_document_required_locator": {
+			"name": "No Document Required Page",
+			"comment": "",
+			"locator": "//h5[contains(@class,'')]",
+			"search_cond": "xpath"
+		},
+		"lbl_no_document_required": {
+			"name": "No Document Required Label",
+			"comment": "",
+			"locator": "//span[contains(@class,'no-documents')]",
+			"search_cond": "xpath"
+		},
+		"btn_issue_commercial_license": {
+			"name": "Issue Commercial License Button",
+			"comment": "",
+			"locator": "//button[contains(@class,'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Summary Document Page": {
+		"summary_document_locator": {
+			"name": "Summary Document Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-card-header__content-text')]",
+			"search_cond": "xpath"
+		},
+		"btn_issue_commercial_license": {
+			"name": "Issue Commercial License Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		},
+		"reselect_document": {
+			"name": "Reselect Document Link",
+			"comment": "",
+			"locator": "//span[contains(text(), 'Start over the documents process')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Summary Of Commercial License Page": {
+		"summary_of_commercial_license_locator": {
+			"name": "Summary Of Commercial License Page",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Summary')]",
+			"search_cond": "xpath"
+		},
+		"btn_rent_yes": {
+			"name": "Rent Yes Radio Button",
+			"comment": "",
+			"locator": "//input[contains(@type, 'radio') and contains(@value, 'yes')]",
+			"search_cond": "xpath"
+		},
+		"btn_rent_no": {
+			"name": "Rent No Radio Button",
+			"comment": "",
+			"locator": "//input[contains(@type, 'radio') and contains(@value, 'no')]",
+			"search_cond": "xpath"
+		},
+		"txb_tawtheeq_number": {
+			"name": "Tawtheeq Number Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'tawtheeqNUmber')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit_your_application": {
+			"name": "Submit Your Application Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Commercial License Issued Page": {
+		"commercial_license_issued_locator": {
+			"name": "Commercial License Issued Page",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Your commercial license has been issued.')]",
+			"search_cond": "xpath"
+		},
+		"btn_download_certificate": {
+			"name": "Download Certificate Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(),'Download Certificate')]",
+			"search_cond": "xpath"
+		},
+		"btn_schedule_adfca_inspection": {
+			"name": "Schedule ADFCA Inspection Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(),'Schedule ADFCA Inspection')]",
+			"search_cond": "xpath"
+		},
+		"btn_rent": {
+			"name": "Rent Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(),'Rent')]",
+			"search_cond": "xpath"
+		}
+	},
+	"ADFCA Inspection Page": {
+		"adfca_inspection_locator": {
+			"name": "ADFCA Inspection Page",
+			"comment": "",
+			"locator": "//h1[contains(@class, '')]",
+			"search_cond": "xpath"
+		},
+		"btn_schedule_adfca_inspection": {
+			"name": "Schedule ADFCA Inspection Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		},
+		"lnk_design_and_adfca_inspection": {
+			"name": "Design and ADFCA Inspection Link",
+			"comment": "",
+			"locator": "//a[contains(@class, 'qa-breadcrumb-link') and contains(text(), 'Design & ADFCA Inspection')]",
+			"search_cond": "xpath"
+		},
+		"lnk_application": {
+			"name": "Application Link",
+			"comment": "",
+			"locator": "//a[contains(@class, 'qa-breadcrumb-link') and contains(text(), 'Application')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Schedule ADFCA Inspection Page": {
+		"schedule_adfca_inspection_locator": {
+			"name": "Schedule ADFCA Inspection Page",
+			"comment": "",
+			"locator": "//p[contains(@class, 'schedule-inspection-title')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit_request": {
+			"name": "Submit Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Scheduled ADFCA Inspection Page": {
+		"scheduled_adfca_inspection_locator": {
+			"name": "Scheduled ADFCA Inspection Page",
+			"comment": "",
+			"locator": "//h1[contains(@class, 'fixture-content') and contains(text(), 'ADFCA Inspection')]",
+			"search_cond": "xpath"
+		},
+		"lbl_scheduled_adfca": {
+			"name": "Schedule ADFCA Text",
+			"comment": "",
+			"locator": "//span[contains(@class, 'qa-alert-message') and contains(text(), 'The ADFCA Inspection has been scheduled.')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Arrange Appointment Page": {
+		"arrange_appointment_locator": {
+			"name": "Arrange Appointment Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'SuccessBox-description__container')]",
+			"search_cond": "xpath"
+		},
+		"lnk_design_and_adfca_inspection": {
+			"name": "Design and ADFCA Inspection Link",
+			"comment": "",
+			"locator": "//a[contains(@class, 'qa-breadcrumb-link') and contains(text(), 'Design & ADFCA Inspection')]",
+			"search_cond": "xpath"
+		},
+		"btn_back_to_application": {
+			"name": "Back to Application Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		},
+		"btn_download_adfca": {
+			"name": "ADFCA Download Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'Download Certificate')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Design And ADFCA Inspection Page": {
+		"design_and_adfca_inspection_locator": {
+			"name": "Design And ADFCA Inspection Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'header mb-3')]",
+			"search_cond": "xpath"
+		},
+		"btn_design_and_fitouts": {
+			"name": "Design and Fitouts Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Design & Fit-outs')]",
+			"search_cond": "xpath"
+		},
+		"btn_adfca_inspection": {
+			"name": "ADFCA Inspection Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'ADFCA Inspection')]",
+			"search_cond": "xpath"
+		},
+		"btn_manage": {
+			"name": "Utilities Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Utilities')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Rejected ADFCA Inspection Page": {
+		"rejected_adfca_inspection_locator": {
+			"name": "Rejected ADFCA Inspection Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'SuccessBox-description__container')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit_request": {
+			"name": "Submit Request Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		},
+		"nk_design_and_adfca_inspection": {
+			"name": "Design and ADFCA Inspection Link",
+			"comment": "",
+			"locator": "//a[contains(@class, 'qa-breadcrumb-link') and contains(text(), 'Design & ADFCA Inspection')]",
+			"search_cond": "xpath"
+		},
+		"lbl_reject_description": {
+			"name": "Reject Description Label",
+			"comment": "",
+			"locator": "//div[contains(@class, 'SuccessBox-description__container')]",
+			"search_cond": "xpath"
+		}
+	},
+	"ADFCA Payment Page": {
+		"adfca_payment_locator": {
+			"name": "ADFCA Payment Page",
+			"comment": "",
+			"locator": "//h1[contains(@id, 'Heading1')]",
+			"search_cond": "xpath"
+		},
+		"txb_card_number": {
+			"name": "Card Number Text Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'cardNumber')]",
+			"search_cond": "xpath"
+		},
+		"drpdwn_expired_date": {
+			"name": "Expired Date Drop Down",
+			"comment": "",
+			"locator": "//div[contains(@id, 'ExpiryYearText')]",
+			"search_cond": "xpath"
+		},
+		"arrow_expired_date": {
+			"name": "Expired Dated Arrow",
+			"comment": "",
+			"locator": "//div[contains(@id,'ExpiryYearText')]//span[contains(@class, 'caret')]",
+			"search_cond": "xpath"
+		},
+		"txb_expired_date": {
+			"name": "Expired Date Text Field",
+			"comment": "",
+			"locator": "//div[contains(@id,'ExpiryYearText')]//input[contains(@class, 'select-dropdown')]",
+			"search_cond": "xpath"
+		},
+		"lst_expired_date": {
+			"name": "Expired Date List",
+			"comment": "",
+			"locator": "//div[contains(@id,'ExpiryYearText')]//li",
+			"search_cond": "xpath"
+		},
+		"item_expired_date": {
+			"name": "Expired Date Item",
+			"comment": "",
+			"locator": "//div[contains(@id, 'ExpiryYearText')]//li[5]",
+			"search_cond": "xpath"
+		},
+		"btn_payment": {
+			"name": "Payment Button",
+			"comment": "",
+			"locator": "//input[contains(@id, 'btnPay')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Design And Fitouts Page": {
+		"design_and_fitouts_locator": {
+			"name": "Design And Fitouts Page",
+			"comment": "",
+			"locator": "//h1[contains(@class, 'design-content__h1 mt-2 mb-2')]",
+			"search_cond": "xpath"
+		},
+		"btn_search_consultants": {
+			"name": "Search Consultants Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'Search Consultants')]",
+			"search_cond": "xpath"
+		},
+		"btn_search_contractors": {
+			"name": "Search Contractors Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'Search Contractors')]",
+			"search_cond": "xpath"
+		},
+		"lnk_design_and_adfca_inspection": {
+			"name": "Design and ADFCA Inspection Link",
+			"comment": "",
+			"locator": "//a[contains(@class, 'qa-breadcrumb-link') and contains(text(), 'Design & ADFCA Inspection')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Authorized Contractors Page": {
+		"authorized_contractors_locator": {
+			"name": "",
+			"comment": "",
+			"locator": "//h3[contains(@class, '')]",
+			"search_cond": "xpath"
+		},
+		"lbl_contractors_detail": {
+			"name": "Contractors Detail",
+			"comment": "",
+			"locator": "//div[contains(@class, 'list-consultant__content')]/div[1]",
+			"search_cond": "xpath"
+		},
+		"lnk_design_and_fixture": {
+			"name": "Design And Fixture Link",
+			"comment": "",
+			"locator": "//p[contains(text(), 'Design & Fit-outs')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Authorized Consultants Page": {
+		"authorized_consultants_locator": {
+			"name": "",
+			"comment": "",
+			"locator": "//h3[contains(@class, '')]",
+			"search_cond": "xpath"
+		},
+		"lbl_consultants_detail": {
+			"name": "Consultants Detail",
+			"comment": "",
+			"locator": "//div[contains(@class, 'list-consultant__content')]/div[1]",
+			"search_cond": "xpath"
+		},
+		"lnk_design_and_fixture": {
+			"name": "Design And Fixture Link",
+			"comment": "",
+			"locator": "//p[contains(text(), 'Design & Fit-outs')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Manage Page": {
+		"manage_locator": {
+			"name": "Manage Page",
+			"comment": "",
+			"locator": "//h2[contains(text(), 'Utilities')]",
+			"search_cond": "xpath"
+		},
+		"lbl_doe": {
+			"name": "Department of Energy",
+			"comment": "",
+			"locator": "//span[contains(text(), 'Department of Energy')]",
+			"search_cond": "xpath"
+		},
+		"lnk_doe": {
+			"name": "DOE Link",
+			"comment": "",
+			"locator": "//a[contains(@href, 'http://www.doe.gov.ae/')]",
+			"search_cond": "xpath"
+		},
+		"lbl_etisalat": {
+			"name": "Etisalat",
+			"comment": "",
+			"locator": "//span[contains(text(), 'Etisalat')]",
+			"search_cond": "xpath"
+		},
+		"lnk_etisalat": {
+			"name": "Etisalat Link",
+			"comment": "",
+			"locator": "//a[contains(@href, 'https://www.etisalat.ae')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Rent Page": {
+		"rent_locator": {
+			"name": "Rent Button",
+			"comment": "",
+			"locator": "//h1[contains(@class,'')]",
+			"search_cond": "xpath"
+		},
+		"btn_find_place": {
+			"name": "Find Place Button",
+			"comment": "",
+			"locator": "//div[contains(@class,'qa-item-card-title') and contains(text(), 'Find a place a to rent')]",
+			"search_cond": "xpath"
+		},
+		"btn_provide_tawtheeq_number": {
+			"name": "Provide Tawtheeq Number Button",
+			"comment": "",
+			"locator": "//div[contains(@class,'qa-item-card-title') and contains(text(), 'Provide Tawtheeq Number')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Find Place Page": {
+		"find_place_locator": {
+			"name": "Find Place Page",
+			"comment": "",
+			"locator": "//p[contains(@class,'rent-links__header')]",
+			"search_cond": "xpath"
+		},
+		"lbl_property_finder": {
+			"name": "Property Finder Label",
+			"comment": "",
+			"locator": "//div[contains(text(),'PropertyFinder')]",
+			"search_cond": "xpath"
+		},
+		"lbl_dubizzle": {
+			"name": "Dubizzle Label",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Dubizzle')]",
+			"search_cond": "xpath"
+		},
+		"lbl_bayut": {
+			"name": "Bayut Label",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Bayut')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Provide Tawtheeq Number Page": {
+		"provide_tawtheeq_number_locator": {
+			"name": "Provide Tawtheeq Number Page",
+			"comment": "",
+			"locator": "//h1[contains(@class, '')]",
+			"search_cond": "xpath"
+		},
+		"txb_tawtheeq_number": {
+			"name": "Tawtheeq Number Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'tawtheeqNUmber')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit": {
+			"name": "Submit Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		},
+		"btn_payment": {
+			"name": "Payment Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Rent Success Page": {
+		"rent_success_locator": {
+			"name": "Rent Success Page",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Success')]",
+			"search_cond": "xpath"
+		},
+		"btn_schedule_adfca_inspection": {
+			"name": "",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		},
+		"lbl_registration_fee": {
+			"name": "Registration Fee Label",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-card-body-description-list__label') and contains(text(), 'Registration fee')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Get Financing Page": {
+		"get_financing_locator": {
+			"name": "Get Financing Page",
+			"comment": "",
+			"locator": "//h1[contains(@class, '')]",
+			"search_cond": "xpath"
+		},
+		"lbl_banks": {
+			"name": "Banks Label",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-card-header-text-only__toptitle') and contains(text(), 'Banks')]",
+			"search_cond": "xpath"
+		},
+		"lbl_khalifa_fund": {
+			"name": "Khalifa Fund",
+			"comment": "",
+			"locator": "//span[contains(@class, 'uil-card-header-text-only__toptitle') and contains(text(), 'Khalifa')]",
+			"search_cond": "xpath"
+		},
+		"btn_bank_find_out_more": {
+			"name": "Bank Find Out More Button",
+			"comment": "",
+			"locator": "//button[contains(text(), 'Find out more')]",
+			"search_cond": "xpath"
+		},
+		"btn_khalifa_fund_find_out_more": {
+			"name": "Khalifa Fund Find Out More Button",
+			"comment": "",
+			"locator": "//span[contains(text(), 'Khalifa Fund')] and //button[contains(@class, 'uil-card-footer-button__action_with-arrow')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Bank List Page": {
+		"bank_list_locator": {
+			"name": "Bank List Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Banks')]",
+			"search_cond": "xpath"
+		},
+		"lbl_bank_list": {
+			"name": "Bank List Label",
+			"comment": "",
+			"locator": "//div[contains(@class, 'layout__content margin')]/div",
+			"search_cond": "xpath"
+		}
+	},
+	"Recruit And Certify Page": {
+		"recruit_and_certify_locator": {
+			"name": "Recruit And Certify Page",
+			"comment": "",
+			"locator": "//h1[contains(text(), 'Recruit & Certify')]",
+			"search_cond": "xpath"
+		},
+		"btn_registration": {
+			"name": "Registration Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Registration')]",
+			"search_cond": "xpath"
+		},
+		"btn_recruitment": {
+			"name": "Recruitment Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Recruitment')]",
+			"search_cond": "xpath"
+		},
+		"btn_employment_tracker": {
+			"name": "Employment Tracker Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Employment Tracker')]",
+			"search_cond": "xpath"
+		},
+		"btn_certification": {
+			"name": "Certification Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Certification')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Registration Page": {
+		"registration_locator": {
+			"name": "Registration Page",
+			"comment": "",
+			"locator": "//h1[contains(text(), 'Registration')]",
+			"search_cond": "xpath"
+		},
+		"btn_establishment_card": {
+			"name": "Establishment Card Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Establishment card')]",
+			"search_cond": "xpath"
+		},
+		"btn_signature_card": {
+			"name": "E-signature Card Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'E-signature card')]",
+			"search_cond": "xpath"
+		},
+		"btn_visa_quota_approval": {
+			"name": "Visa Quota Approval Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Visa quota approval')]",
+			"search_cond": "xpath"
+		},
+		"btn_mohre_establishment_card": {
+			"name": "MOHRE Establishment Card Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'MOHRE establishment card')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Establishment Card Page": {
+		"establishment_card_locator": {
+			"name": "Establishment Card Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Establishment card')]",
+			"search_cond": "xpath"
+		},
+		"lbl_establishment_card_text": {
+			"name": "Establishment Card Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required Documents')]",
+			"search_cond": "xpath"
+		},
+		"lnk_establishment_card_side_menu": {
+			"name": "Establishment Card Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Establishment card')]",
+			"search_cond": "xpath"
+		},
+		"lnk_electronic_signature_card_side_menu": {
+			"name": "Electronic Signature Card Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'E-signature card')]",
+			"search_cond": "xpath"
+		},
+		"lnk_mohre_establishment_card_side_menu": {
+			"name": "MOHRE Establishment Card Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'MOHRE establishment card')]",
+			"search_cond": "xpath"
+		},
+		"lnk_visa_quota_approval_side_menu": {
+			"name": "Visa Quota Approval Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Visa quota approval')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Electronic Signature Card Page": {
+		"electronic_signature_card_locator": {
+			"name": "Electronic Signature Card Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Electronic Signature Card')]",
+			"search_cond": "xpath"
+		},
+		"lbl_electronic_signature_card_text": {
+			"name": "Electronic Signature Card Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required documents')]",
+			"search_cond": "xpath"
+		}
+	},
+	"MOHRE Establishment Card Page": {
+		"mohre_establishment_card_locator": {
+			"name": "MOHRE Establishment Card Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'MOHRE establishment card')]",
+			"search_cond": "xpath"
+		},
+		"lbl_mohre_establishment_card_text": {
+			"name": "MOHRE Establishment Card Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required Documents')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Apply for Quota Page": {
+		"visa_quota_approval_locator": {
+			"name": "Apply for Quota Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Apply for Quota')]",
+			"search_cond": "xpath"
+		},
+		"lbl_visa_quota_approval_text": {
+			"name": "",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required Documents')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Recruitment Page": {
+		"recruitment_locator": {
+			"name": "Recruitment Page",
+			"comment": "",
+			"locator": "//h1[contains(text(), 'Recruitment')]",
+			"search_cond": "xpath"
+		},
+		"btn_work_offer": {
+			"name": "Work Offer Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Work Offer')]",
+			"search_cond": "xpath"
+		},
+		"btn_work_permit": {
+			"name": "Work Permit Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Work Permit')]",
+			"search_cond": "xpath"
+		},
+		"btn_entry_permit": {
+			"name": "Entry Permit Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Entry Permit')]",
+			"search_cond": "xpath"
+		},
+		"btn_medical_test": {
+			"name": "Medical Test Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Medical Test')]",
+			"search_cond": "xpath"
+		},
+		"btn_work_contract": {
+			"name": "Work Contract Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Work Contract')]",
+			"search_cond": "xpath"
+		},
+		"btn_medical_insurance": {
+			"name": "Medical Insurance Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Medical Insurance')]",
+			"search_cond": "xpath"
+		},
+		"btn_emirates_id": {
+			"name": "Emirates ID Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Emirates ID')]",
+			"search_cond": "xpath"
+		},
+		"btn_residence_visa": {
+			"name": "Residence Visa Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'qa-item-card-title') and contains(text(), 'Residence Visa')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Work Offer Page": {
+		"work_offer_locator": {
+			"name": "Work Offer Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Work Offer')]",
+			"search_cond": "xpath"
+		},
+		"lbl_work_offer_text": {
+			"name": "Work Offer Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required Documents')]",
+			"search_cond": "xpath"
+		},
+		"lnk_work_offer_side_menu": {
+			"name": "Work Offer Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Work Offer')]",
+			"search_cond": "xpath"
+		},
+		"lnk_work_permit_side_menu": {
+			"name": "Work Permit Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Work Permit')]",
+			"search_cond": "xpath"
+		},
+		"lnk_entry_permit_side_menu": {
+			"name": "Entry Permit Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Entry Permit')]",
+			"search_cond": "xpath"
+		},
+		"lnk_medical_test_side_menu": {
+			"name": "Medical Test Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Medical Test')]",
+			"search_cond": "xpath"
+		},
+		"lnk_work_contract_side_menu": {
+			"name": "Work Contract Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Work Contract')]",
+			"search_cond": "xpath"
+		},
+		"lnk_medical_insurance_side_menu": {
+			"name": "Medical Insurance Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Medical Insurance')]",
+			"search_cond": "xpath"
+		},
+		"lnk_emirates_id_side_menu": {
+			"name": "Emirates ID Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Emirates ID')]",
+			"search_cond": "xpath"
+		},
+		"lnk_residence_visa_side_menu": {
+			"name": "Residence Visa Side Menu Link",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Residence Visa')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Work Permit Page": {
+		"work_permit_locator": {
+			"name": "Work Permit Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Work Permit')]",
+			"search_cond": "xpath"
+		},
+		"lbl_work_permit_text": {
+			"name": "Work Permit Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required documents')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Entry Permit Page": {
+		"entry_permit_locator": {
+			"name": "Entry Permit Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Entry Permit')]",
+			"search_cond": "xpath"
+		},
+		"lbl_entry_permit_text": {
+			"name": "Entry Permit Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required Documents')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Conduct Medical Test Page": {
+		"conduct_medical_test_locator": {
+			"name": "Conduct Medical Test Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Conduct Medical Test')]",
+			"search_cond": "xpath"
+		},
+		"lbl_conduct_medical_test_text": {
+			"name": "Conduct Medical Test Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required Documents')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Work Contract Page": {
+		"work_contract_locator": {
+			"name": "Work Contract Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Work Contract')]",
+			"search_cond": "xpath"
+		},
+		"lbl_work_contract_text": {
+			"name": "Work Contract Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required Documents')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Medical Insurance Page": {
+		"medical_insurance_locator": {
+			"name": "Medical Insurance Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Medical Insurance')]",
+			"search_cond": "xpath"
+		},
+		"lbl_medical_insurance_text": {
+			"name": "Medical Insurance Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required Documents')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Emirates ID Page": {
+		"emirates_id_locator": {
+			"name": "Emirates ID Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Emirates ID')]",
+			"search_cond": "xpath"
+		},
+		"lbl_emirates_id_text": {
+			"name": "Emirates ID Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required Documents')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Residence Visa Page": {
+		"residence_visa_locator": {
+			"name": "Residence Visa Page",
+			"comment": "",
+			"locator": "//h3[contains(text(), 'Residence Visa')]",
+			"search_cond": "xpath"
+		},
+		"lbl_residence_visa_text": {
+			"name": "Residence Visa Text",
+			"comment": "",
+			"locator": "//h5[contains(text(), 'Required Documents')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Authorized Education Center Page": {
+		"authorized_education_center_locator": {
+			"name": "Certification Page",
+			"comment": "",
+			"locator": "//h3[contains(@class, '')]",
+			"search_cond": "xpath"
+		},
+		"lbl_center_name": {
+			"name": "Center Name Label",
+			"comment": "",
+			"locator": "//div[contains(@class, 'list-consultant__content')]/div",
+			"search_cond": "xpath"
+		}
+	},
+	"Employment Tracker Page": {
+		"employment_tracker_locator": {
+			"name": "Employment Tracker Page",
+			"comment": "",
+			"locator": "//div[contains(@class, 'tracker-header')]",
+			"search_cond": "xpath"
+		},
+		"btn_add_employee": {
+			"name": "Add Employee Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		},
+		"lbl_employee_profile": {
+			"name": "Employee Profile Label",
+			"comment": "",
+			"locator": "//div[contains(@class, 'current_status') and contains(text(), 'EMPLOYEE PROFILE CREATED')]",
+			"search_cond": "xpath"
+		},
+		"lbl_moi": {
+			"name": "MOI Label",
+			"comment": "",
+			"locator": "//div[contains(@class, 'current_status') and contains(text(), 'MOI UNIFIED NUMBER ISSUED')]",
+			"search_cond": "xpath"
+		},
+		"lnk_recruit_and_certify": {
+			"name": "Recruit And Certify Link",
+			"comment": "",
+			"locator": "//a[contains(text(), 'Recruit & Certify')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Employment Information Page": {
+		"employment_information_locator": {
+			"name": "Employment Information Page",
+			"comment": "",
+			"locator": "//h1[contains(@class, '')]",
+			"search_cond": "xpath"
+		},
+		"txb_first_name": {
+			"name": "First Name Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'firstName')]",
+			"search_cond": "xpath"
+		},
+		"txb_last_name": {
+			"name": "Last Name Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'lastName')]",
+			"search_cond": "xpath"
+		},
+		"drop_down_nationality": {
+			"name": "Nationality Drop Down",
+			"comment": "",
+			"locator": "//div[contains(@id, 'nationality')]",
+			"search_cond": "xpath"
+		},
+		"arrow_nationality": {
+			"name": "Arrow Nationality",
+			"comment": "",
+			"locator": "//div[contains(@id, 'nationality')]//i",
+			"search_cond": "xpath"
+		},
+		"txb_nationality": {
+			"name": "Nationality Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'nationality')]",
+			"search_cond": "xpath"
+		},
+		"txb_passport_number": {
+			"name": "Passport Number Field",
+			"comment": "",
+			"locator": "//input[@id='passportNumber']",
+			"search_cond": "xpath"
+		},
+		"drop_down_role": {
+			"name": "Role Drop Down",
+			"comment": "",
+			"locator": "//div[@id='role']",
+			"search_cond": "xpath"
+		},
+		"lst_item_drop_down_role": {
+			"name": "Role List",
+			"comment": "",
+			"locator": "//div[@id='role']//li",
+			"search_cond": "xpath"
+		},
+		"arrow_role": {
+			"name": "Role Arrow",
+			"comment": "",
+			"locator": "//div[@id='role']//i",
+			"search_cond": "xpath"
+		},
+		"item_drop_down_role": {
+			"name": "Role Arrow {}",
+			"comment": "",
+			"locator": "//div[@id='role']//li[contains(text(), '{}')]",
+			"search_cond": "xpath"
+		},
+		"btn_add_employee": {
+			"name": "Add Employee Button",
+			"comment": "",
+			"locator": "//button[contains(@class, 'uil-button_primary')]",
+			"search_cond": "xpath"
+		}
+	},
+	"Employee Steps Page": {
+		"employee_steps_locator": {
+			"name": "Employee Steps Page",
+			"comment": "",
+			"locator": "//div[contains(text(), 'Below are the required steps in order to issue your employees residence visa.')]",
+			"search_cond": "xpath"
+		},
+		"txb_moi_unified_number": {
+			"name": "MOI Unified Number Field",
+			"comment": "",
+			"locator": "//input[contains(@id, 'MOIUnifiedNumber')]",
+			"search_cond": "xpath"
+		},
+		"btn_submit": {
+			"name": "Submit Button",
+			"comment": "",
+			"locator": "//div[contains(@class, 'uil-button__content') and contains(text(), 'Submit')]",
+			"search_cond": "xpath"
+		},
+		"lnk_recruit_and_certify": {
+			"name": "Recruit & Certify Link",
+			"comment": "",
+			"locator": "//a[contains(text(), 'Recruit & Certify')]",
+			"search_cond": "xpath"
+		}
+	}
+}
